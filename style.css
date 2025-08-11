@@ -1,0 +1,444 @@
+body {
+    background-color: #0c0c0c;
+}
+.box1 {
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    border: solid 4px white;
+    border-radius: 10px 10px 30px 10px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+/*
+.box2 {
+    border: solid 0px black;
+    border-radius: 20px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    right: 0px;
+    background-color: #964734;
+} */
+/* .text1:hover {
+    cursor: pointer;
+}
+.text1 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    left: 450px;
+    background-color: #023950;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    left: 650px;
+    background-color: #023950;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    cursor: pointer;
+}
+.text3 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    left: 850px;
+    background-color: #023950;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text3:hover {
+    cursor: pointer;
+} */
+.live {
+    border: solid 4px white;
+    border-radius: 10px 10px 30px 30px;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #0c0c0c;
+    transition: border-radius 0.2s ease-in;
+}
+.live:hover {
+    cursor: pointer;
+    border-radius: 25px 25px 50px 50px;
+}
+.leader {
+    /* border: solid 2px red; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    /* background-color: #964734; */
+}
+.leader p {
+    margin: 0;
+}
+.chicago {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    will-change: transform;
+    color: white;
+}
+.chicago:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.london {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.london:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.dubai {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.dubai:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.rome {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.rome:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.paris {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.paris:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.ljubljana {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.ljubljana:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.zagrep {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.zagrep:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.tirana {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color:#0c0c0c;
+    color: white;
+}
+.tirana:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.frankfurt {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.frankfurt:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+.amsterdam {
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease, transform 0.2s ease-in-out;
+    background-color: #0c0c0c;
+    color: white;
+}
+.amsterdam:hover {
+    cursor: pointer;
+    background-color: #171717;
+    transform: translate(10%);
+}
+/* .dublin {
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 820px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    background-color: #00284d;
+}
+.dublin:hover {
+    cursor: pointer;
+    background-color: #003566;
+} */
+.print {
+    border: solid 1px red;
+    height: 600px;
+    width: 1400px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    transform: translateY(10%);
+    animation: slide-up 500ms ease-in-out forwards;
+    z-index: 2;
+}
+@keyframes slide-up {
+    from {
+        transform: translateY(7%); /* Start off-screen below */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0); /* End at the starting position */
+        opacity: 1;
+    }
+}
+.p1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
+.p2 {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
+.p3 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
+.p4 {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
+.p5 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color:#0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
+.p6 {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    height: 130px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+}
