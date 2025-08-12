@@ -7,9 +7,9 @@ async function FirstfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p  class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -38,9 +38,9 @@ async function SecondfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -65,9 +65,9 @@ async function ThirdfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -92,9 +92,9 @@ async function FourthfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -119,9 +119,9 @@ async function FifthfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -146,9 +146,9 @@ async function SixthfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -173,9 +173,9 @@ async function SeventhfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -200,9 +200,9 @@ async function EighthfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -227,9 +227,9 @@ async function NinethfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -254,9 +254,9 @@ async function TenthfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;
@@ -281,9 +281,9 @@ async function EleventhfetchAPI () {
         const data = await response.json();
         const weatherInfoHTML = `
                     <p class="p1">City: ${data.location.name}</p>
-                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p3">Country: ${data.location.country}</p>
                     <p class="p4">Temperature: ${data.current.temp_c}°C</p>
+                    <p class="p2">Region: ${data.location.region}</p>
                     <p class="p5">Weather: ${data.current.condition.text}</p>
                     <p class="p6">Local Time: ${data.location.localtime}</p>
                 `;

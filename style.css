@@ -109,6 +109,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 13px;
+    align-items: center;
     position: absolute;
     top: 150px;
     left: 40px;
@@ -329,11 +330,11 @@ body {
     background-color: #003566;
 } */
 .print {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 600px;
     width: 1400px;
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 450px;
     color: black;
     font-size: 30px;
@@ -354,7 +355,7 @@ body {
 }
 .p1 {
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 50px;
     border: solid 3px white;
     border-radius: 20px;
@@ -365,41 +366,44 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 .p2 {
     position: absolute;
-    top: 50px;
-    left: 500px;
+    top: 30px;
+    left: 600px;
     border: solid 3px white;
     border-radius: 20px;
     background-color: #0c0c0c;
     height: 130px;
     width: 400px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 .p3 {
     position: absolute;
-    top: 50px;
-    right: 50px;
+    top: 260px;
+    left: 50px;
     border: solid 3px white;
     border-radius: 20px;
     background-color: #0c0c0c;
     height: 130px;
     width: 400px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 .p4 {
     position: absolute;
-    top: 300px;
+    top: 500px;
     left: 50px;
     border: solid 3px white;
     border-radius: 20px;
@@ -411,11 +415,12 @@ body {
     align-items: center;
     color: white;
     /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 .p5 {
     position: absolute;
-    top: 300px;
-    left: 500px;
+    top: 260px;
+    left: 600px;
     border: solid 3px white;
     border-radius: 20px;
     background-color:#0c0c0c;
@@ -426,11 +431,12 @@ body {
     align-items: center;
     color: white;
     /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 .p6 {
     position: absolute;
-    top: 300px;
-    right: 50px;
+    top: 500px;
+    left: 600px;
     border: solid 3px white;
     border-radius: 20px;
     background-color: #0c0c0c;
@@ -441,4 +447,260 @@ body {
     align-items: center;
     color: white;
     /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+
+.cityImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 145px;
+    left: 670px;
+}
+
+.countryImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 370px;
+    left: 670px;
+}
+
+.tempImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 610px;
+    left: 670px;
+}
+
+.regImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 145px;
+    left: 1220px;
+}
+
+.weaImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 370px;
+    left: 1220px;
+}
+
+.locImg {
+    animation: slide-up 500ms ease-in-out forwards;
+    position: absolute;
+    top: 610px;
+    left: 1220px;
+}
+
+@media (max-width: 1618px) {
+    .box1 {
+        width: 90%;
+        border-radius: 10px 10px 30px 30px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .live {
+        width: 80%;
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .leader {
+        gap: 15px;
+        width: 90%;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .chicago {
+        width: 80%;
+    }
+
+    .chicago:hover {
+        transform: none;
+    }
+
+    .london {
+        width: 80%;
+    }
+
+    .london:hover {
+        transform: none;
+    }
+
+    .dubai {
+        width: 80%;
+    }
+
+    .dubai:hover {
+        transform: none;
+    }
+
+    .rome {
+        width: 80%;
+    }
+
+    .rome:hover {
+        transform: none;
+    }
+
+    .paris {
+        width: 80%;
+    }
+
+    .paris:hover {
+        transform: none;
+    }
+
+    .ljubljana {
+        width: 80%;
+    }
+
+    .ljubljana:hover {
+        transform: none;
+    }
+
+    .zagrep {
+        width: 80%;
+    }
+
+    .zagrep:hover {
+        transform: none;
+    }
+
+    .tirana {
+        width: 80%;
+    }
+
+    .tirana:hover {
+        transform: none;
+    }
+
+    .frankfurt {
+        width: 80%;
+    }
+
+    .frankfurt:hover {
+        transform: none;
+    }
+
+    .amsterdam {
+        width: 80%;
+    }
+
+    .amsterdam:hover {
+        transform: none;
+    }
+
+    .print {
+        /* border: solid 1px red; */
+        width: 90%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 1200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p1 {
+        width: 100%;
+        position: unset;
+    }
+
+    .cityImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 1180px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p3 {
+        width: 100%;
+        position: unset;
+    }
+
+    .countryImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 1430px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p4 {
+        width: 100%;
+        position: unset;
+    }
+
+    .tempImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 1670px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p2 {
+        width: 100%;
+        position: unset;
+    }
+
+    .regImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 1910px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p5 {
+        width: 100%;
+        position: unset;
+    }
+
+    .weaImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 2150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .p6 {
+        width: 100%;
+        position: unset;
+        text-align: center;
+    }
+
+    .locImg {
+        animation: slide-up2 500ms ease-in-out forwards;
+        position: absolute;
+        top: 2390px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @keyframes slide-up2 {
+        from {
+            transform: translateY(7%) translateX(-50%); /* Start off-screen below */
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0) translateX(-50%); /* End at the starting position */
+            opacity: 1;
+        }
+    }
 }
